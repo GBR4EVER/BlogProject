@@ -4,8 +4,8 @@ Author: Corey Burkley
 Description: Travel blog theme for Dan & Liz's travel experiences and destinations.
 Version: 1.0
 */
-/* Accessibility - hides the forward slash */
 @import url(http://fonts.googleapis.com/css?family=Economica:700,400|Architects+Daughter|Cuprum:400,700|Permanent+Marker|Handlee);
+/* Accessibility - hides the forward slash */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "/"; }
 
