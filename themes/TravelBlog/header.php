@@ -9,11 +9,12 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	  <meta charset="<?php bloginfo( 'charset' ); ?>">
+	  <meta name="viewport" content="width=device-width">
+	  <title><?php wp_title( '|', true, 'right' ); ?></title>
+	  <link rel="profile" href="http://gmpg.org/xfn/11">
+	  <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="stylesheet" id="TravelBlog-style-css" href="http://localhost:8888/BlogProject/wp-content/themes/TravelBlog/style.css" type="text/css" media="all">
 	<?php wp_head(); ?>
 </head>
 
