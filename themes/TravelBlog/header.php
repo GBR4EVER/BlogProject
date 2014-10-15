@@ -18,3 +18,21 @@
 </head>
 
 <body>
+
+  <nav class="top-bar">
+    
+    <section class="top-bar-section">
+      
+      <ul class="title area">
+        <li class="name"><h1><a href="index.html">NewZealand Getaway</a></h1></li>
+      </ul>
+    
+      <ul class="right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Posts</a></li>
+        <li><a href="#">Pictures</a></li>
+      </ul>
+    
+    </section>
+  
+  </nav>
