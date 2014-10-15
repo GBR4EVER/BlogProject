@@ -9,7 +9,8 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-	  <meta charset="<?php bloginfo( 'charset' ); ?>">
+	  <link href='http://fonts.googleapis.com/css?family=Economica:700,400|Architects+Daughter|Cuprum:400,700|Permanent+Marker|Handlee' rel='stylesheet' type='text/css'>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
 	  <meta name="viewport" content="width=device-width">
 	  <title><?php wp_title( '|', true, 'right' ); ?></title>
 	  <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -25,7 +26,7 @@
     <section class="top-bar-section">
       
       <ul class="title area">
-        <li class="name"><h1><a href="index.html">NewZealand Getaway</a></h1></li>
+        <li class="name"><h1><a href="index.html">NewZealand</a></h1></li>
       </ul>
     
       <ul class="right">
