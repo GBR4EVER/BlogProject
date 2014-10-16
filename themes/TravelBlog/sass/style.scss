@@ -7,47 +7,6 @@ Version: 1.0
 
 @import url(http://fonts.googleapis.com/css?family=Economica:700,400|Architects+Daughter|Cuprum:400,700|Permanent+Marker|Handlee);
 
-@import "foundation";
 @import "normalize";
-@import "foundation/components/top-bar";
+@import "foundation";
 
-$econ-font: 'Economica', sans-serif;
-
-$skyblue: #79D7EA;
-$seablue: #5ABAC9;
-$mintgreen: #7EFCC7;
-$seagreen: #51E2AB;
-$grey: #ADBABC;
-
-html {
-  box-sizing: border-box;
-  padding-bottom: 0px;
-
-;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-nav.top-bar {
-  $include-html-top-bar-classes: $include-html-classes !default;
-  $topbar-bg-color: $mintgreen !default;
-  $topbar-bg: $topbar-bg-color !default;
-  $topbar-height: 200px !default;
-  $topbar-margin-bottom: 0 !default;
-}
-
-body {
-  $include-html-grid-classes: $include-html-classes;
-  $include-xl-html-grid-classes: false;
-  $row-width: rem-calc(1000);
-  $column-gutter: rem-calc(30);
-  $total-columns: 12;
-}
-
-.row {
-  @include grid-row();
-  .large-8 columns{
-    @include grid-column(8);
-  }
-}
