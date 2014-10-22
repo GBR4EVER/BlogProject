@@ -20,18 +20,21 @@
   
 <body>
 
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title area">
-        <li class="name"><h1><a href="index.html">Far & Wide</a></h1></li>
-      </ul>
-      
-      <section class="top-bar-section">
-        <ul class="right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Posts</a></li>
-          <li><a href="#">Pictures</a></li>
-        </ul>
-    
-      </section>
-    
-    </nav>
+  <header id="header">
+    <div class="row">
+      <div class="small-3 medium-2 columns">
+        <h3>
+            <a href="/">FAR & WIDE TRAVELS</a>
+        </h3>
+      </div>
+      <div class="small-9 medium-10 columns">
+        <nav>
+          <a href="/journal">Journal</a>
+          <a href="/itinerary">Itinerary</a>
+          <a href="/photos">Photos</a>
+          <a href="/about">About Us</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
